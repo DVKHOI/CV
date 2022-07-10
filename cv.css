@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: white;
+    position: relative;
+    width: 1000px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.header h1{
+    font-size: 50px;
+    color: rgb(80, 15, 15);
+    font-weight: 400;
+}
+.header h3{
+    font-size: 30px;
+    color: #A2B5BB;
+    font-weight: 300;
+
+}
+.info{
+    height: 700px;
+    position: absolute;
+    width: 400px;
+    padding-left: 23px;
+    border-right: 1px solid ;
+}
+img{
+    width: 335px;
+    height: 230px;
+}
+.career{
+    margin-top: 30px;
+    width: 270px;
+}
+h2{
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.certificate{
+    margin-top: 60px;
+}
+.contact{
+    margin-top: 100px;
+}
+.profile{
+    padding-left: 10px;
+    height: 700px;
+    position: absolute;
+    width: 680px;
+    margin-left: 420px;
+}
+.profile .title{
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: cursive;
+}
+.profile .work{
+    color: red;
+    font-family: initial;
+}
+.profile .work_detailed{
+    margin-top: 10px;
+    margin-left: 19px;
+    font-family: initial;
+    margin-bottom: 20px;
+}
